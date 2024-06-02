@@ -111,7 +111,7 @@ def draw():
     screen.blit("stockphoto", (0,0))
     if gameOver:
         screen.draw.text("Try again!", fontsize=40, center=center, color=fontColour)
-        screen.draw.text("You failed haha.", fontsize=20, center=(centerX, centerY + 25), color=fontColour)
+        screen.draw.text("You did not make it.", fontsize=20, center=(centerX, centerY + 25), color=fontColour)
     elif gameComplete:
         screen.draw.text("Well done!", fontsize=40, center=center, color=fontColour)
         screen.draw.text("You won the game.", fontsize=20, center=(centerX, centerY + 25), color=fontColour)
